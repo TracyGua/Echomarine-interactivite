@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0px;
+    width: 100%;
+    max-height: 100%;
+   // background-color:#0D2C54;
+    color: black;
+  }
+@mixin revenir{
+    border-radius:50%;
+    border-color: white;
+    background-color: white;
+    border:none;
+    width: 70px;
+    height: 40px;
+    margin-top:50px;
+    margin-left:50px;
+  }
+  @mixin titre3{
+    display:grid;
+    text-align: center;
+    font-size: 50px;
+  }
+  @mixin text{
+    color: #0D2C54;
+    display:grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto auto;
+    justify-content: center;
+    max-width: 600px;
+    margin-right:80px;
+    //text-align: center;
+   // grid-row:1/4;
+  }
+  @mixin grillePerso{
+    display:grid;
+    margin:auto;
+    width:100%;
+    height:100%;
+    position:relative;
+     // top: 20vh;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+ 
+  }
+  @mixin visuel{
+   display:grid;
+   grid-template-columns:auto;
+    grid-template-rows:auto;
+    justify-content: center;
+  }
+  @mixin img_gros{
+    height:500px;
+    grid-row: 1/4;
+    // grid-row-start:1;
+     //position:relative;
+     //z-index:1;
+  }
+  @mixin arriere_plan{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    bottom: 20vh;
+    // z-index:2;
+  }
+  @mixin info{
+    text-align:justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right:0px;
+  }
+ @mixin img6{
+  width: 300px;
+ }
+ @mixin img2{
+  width: 500px;
+ }
+ @mixin visuels2{
+  grid-template-columns: auto auto;
+  grid-row:1/4;
+ }
+ @mixin img3{
+  width: 300px;
+ }
+ @mixin visuels3{
+  grid-template-columns: auto;
+  grid-row:1/4;
+ }
+ @mixin nom{
+  display:block;
+  margin:auto;
+  text-align: center;
+  heigth:100%;
+  margin-top: 50px;
+ // font-size: 50px;
+ }
