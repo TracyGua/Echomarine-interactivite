@@ -59,6 +59,7 @@
   }
   .modal-content{
     width:900px;
+    height: 650px;
     margin-left:-200px;
     margin-top:70px;
   }
@@ -67,6 +68,7 @@
     color:white;
     border-color:#0D2C54;
     border-radius: 50%;
+    border:none;
     width:40px;
     height:40px;
     margin-left:10px;
@@ -75,6 +77,21 @@
     border-color: #0D2C54;
     border-width: 2px;
   }
+  .x {
+    position:absolute;
+    top:3.6%;
+    left:4.6%;
+   }
+   .requin {
+    position:absolute;
+    top:3.5%;
+    left:4.6%;
+   }
+   .thon {
+    position:absolute;
+    top:3.5%;
+    left:4.6%;
+   }
   .visuels{
     @include page_perso.visuel;
   }
