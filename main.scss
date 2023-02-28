@@ -22,13 +22,81 @@
   }
   .button{
     border-radius:50%;
-    border-color: white;
-    background-color: white;
+    background-color: rgba(28, 76, 148, 0.685);
     border:none;
     width: 240px;
     height: 240px;
-  
   }
+
+.img_animal{
+width: 200px;
+}
+//Animations
+
+.tortueSprite{
+  width: 500px;
+  height: 500px;
+  background-image: url('sprites/tortue_sprite.png');
+  background-size: cover;
+  background-position: 0 0;
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
+  }
+  .requinBlancSprite{
+    width: 500px;
+    height: 500px;
+    background-image: url('sprites/requin_blanc_sprite.png');
+    background-size: cover;
+    background-position: 0 0;
+    animation-name: anim;
+    animation-duration: 3.11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(46);
+  }
+  @keyframes anim {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 -23000px;
+    }
+  }
+
+
+  /*Animations
+  .button1{ 
+  background-image: url('sprites/tortue_sprite.png');
+    background-size: cover;
+    background-position: 0 0;
+    animation-name: anim;
+    animation-duration: 3.11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(46);
+  }
+  .button2{ 
+    background-image: url('sprites/requin_blanc_sprite.png');
+      background-size: cover;
+      background-position: 0 0;
+      animation-name: anim;
+      animation-duration: 3.11s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-timing-function: steps(46);
+    }
+    @keyframes anim {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 0 -9200px;
+      }
+    }*/
+
   .grille{
     margin:auto;
     display:grid;

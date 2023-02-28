@@ -55,6 +55,9 @@
    grid-template-columns:auto;
     grid-template-rows:auto;
     justify-content: center;
+    width: 500px;
+    height: 500px;
+
   }
   @mixin img_gros{
     height:500px;
