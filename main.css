@@ -112,6 +112,25 @@ body {
   left: 4.6%;
 }
 
+.TortueS {
+  width: 500px;
+  height: 500px;
+  background-image: url("p5js-client/medias/sprites/tortue_sprite.png");
+  background-position: 0 0;
+  background-size: 500px 5000%;
+  background-repeat: no-repeat;
+  animation: idle-tortue 0.1s steps(47) infinite;
+  border-color: none;
+}
+
+@keyframes idle-tortue {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -10000px;
+  }
+}
 .visuels {
   display: grid;
   grid-template-columns: auto;
@@ -175,7 +194,6 @@ body {
 }
 
 .img_gros {
-  height: 500px;
   grid-row: 1/4;
 }
 
