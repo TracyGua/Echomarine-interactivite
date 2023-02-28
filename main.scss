@@ -57,6 +57,30 @@ width: 200px;
     animation-timing-function: linear;
     animation-timing-function: steps(46);
   }
+  .vaquitaSprite{
+    width: 500px;
+    height: 500px;
+    background-image: url('sprites/vaquita_sprite.png');
+    background-size: cover;
+    background-position: 0 0;
+    animation-name: anim;
+    animation-duration: 3.11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(46);
+  }
+  .requinBaleineSprite{
+    width: 500px;
+    height: 500px;
+    background-image: url('sprites/requin_baleine_sprite.png');
+    background-size: cover;
+    background-position: 0 0;
+    animation-name: anim;
+    animation-duration: 3.11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(46);
+  }
   @keyframes anim {
     from {
       background-position: 0 0;
