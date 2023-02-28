@@ -35,7 +35,7 @@ footer {
 
 .button {
   border-radius: 50%;
-  background-color: rgba(28, 76, 148, 0.685);
+  background-color: white;
   border: none;
   width: 240px;
   height: 240px;
@@ -51,16 +51,11 @@ footer {
   background-image: url("sprites/tortue_sprite.png");
   background-size: cover;
   background-position: 0 0;
-  -webkit-animation-name: anim;
-          animation-name: anim;
-  -webkit-animation-duration: 3.11s;
-          animation-duration: 3.11s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
 }
 
 .requinBlancSprite {
@@ -69,25 +64,11 @@ footer {
   background-image: url("sprites/requin_blanc_sprite.png");
   background-size: cover;
   background-position: 0 0;
-  -webkit-animation-name: anim;
-          animation-name: anim;
-  -webkit-animation-duration: 3.11s;
-          animation-duration: 3.11s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
-}
-
-@-webkit-keyframes anim {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 0 -23000px;
-  }
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
 }
 
 @keyframes anim {
@@ -204,18 +185,8 @@ body {
   background-position: 0 0;
   background-size: 500px 5000%;
   background-repeat: no-repeat;
-  -webkit-animation: idle-tortue 0.1s steps(47) infinite;
-          animation: idle-tortue 0.1s steps(47) infinite;
+  animation: idle-tortue 0.1s steps(47) infinite;
   border-color: none;
-}
-
-@-webkit-keyframes idle-tortue {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 0 -10000px;
-  }
 }
 
 @keyframes idle-tortue {
