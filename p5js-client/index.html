@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="p5.min.js"></script>
-    <script src="p5.dom.min.js"></script>
-    <script src="libs/osc-browser.min.js"></script>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>  <link rel="stylesheet" type="text/css" href="../main.css">
-    <meta charset="utf-8">
 
-  </head>
-  <body>
-    <header>
-      <div class="titre2">
-        <h1 class="connect">Echomarine</h1>
-      </div>
-    </header>
-    <main>
+<head>
+  <script src="p5.min.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="libs/osc-browser.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-      <div class="grille">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="../main.css">
+  <meta charset="utf-8">
 
         <div class="button1"  data-toggle="modal" data-target="#tortue">
           <button type="button" class="button">
@@ -86,7 +84,8 @@
         </div>
       </div>
     </div>
-      <!-- Modal fin tortue -->
+  </header>
+  <main>
 
      <!-- Modal requin blanc -->
     <div class="modal fade" id="requinBlanc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
@@ -176,11 +175,38 @@
           </div>
         </div>
       </div>
-  </div>
-  <!-- Modal fin requin baleine -->
+      <div class="button2" data-toggle="modal" data-target="#requinBlanc">
+        <button type=" button" class="button">
+          <img src="medias/image 19.png">
+      </div>
+      </button>
+      <div class="button3" data-toggle="modal" data-target="#vaquita">
+        <button class="button">
+          <img src="medias/vaquita 1.png">
+      </div>
+      </button>
+      <div class="button4" data-toggle="modal" data-target="#requinBaleine">
+        <button class="button">
+          <img src="medias/image 5.png">
+      </div>
+      </button>
+      <div class="button5" data-toggle="modal" data-target="#baleine">
+        <button class="button">
+          <img src="medias/baleine 1.png">
+      </div>
+      </button>
+      <div class="button6" data-toggle="modal" data-target="#thonRouge">
+        <button class="button">
+          <img src="medias/image 14.png">
+      </div>
+      </button>
+    </div>
 
-  <!-- Modal baleine -->
-    <div class="modal fade" id="baleine" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+
+    <!-- Modal tortue -->
+
+    <div class="modal fade" id="tortue" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -191,63 +217,191 @@
           <div class="modal-body">
             <div class="contenue">
               <div class="visuels">
-                  <!--<img class="arriere_plan" src="\media\arriere_plan_perso.png">-->
-                  <img class="img_gros" src="medias/baleine 1.png">
+                <!--<img class="arriere_plan" src="\media\arriere_plan_perso.png">-->
+                <img class="img_gros TortueS">
+              </div>
+              ­<div class="text">
+                <h2 class="titre3">La Tortue De Mer</h2>
+                <p class="info">Les tortues marines sont essentielles à la biodiversité de l’océan et aident énormément
+                  au maintien des écosystèmes. La pollution des déchets plastiques c’est un des grands problèmes pour
+                  assurer leur continuité. Elles ingèrent des sacs en plastique et meurent. Cela arrive dû à la
+                  confusion entre les méduses et les sacs. Si l'on arrête de jeter des déchets dans la nature, on
+                  contribue à leur soin.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal fin tortue -->
+
+    <!-- Modal requin blanc -->
+    <div class="modal fade" id="requinBlanc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class='requin' aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="contenue">
+              <div class="visuels">
+                <!--<img class="arriere_plan" src="\media\arriere_plan_perso.png">-->
+                <img class="img_gros" src="medias/tortue 1.png">
+              </div>
+              ­<div class="text">
+                <h2 class="titre3">Le Grand Requin Blanc</h2>
+                <p class="info">Le grand requin blanc est un poisson prédateur, sa taille peut aller jusqu’à 6 mètres.
+                  C’est un animal doté d’incroyables ouïe et odorat. Les principales causes de son extinction c’est
+                  particulièrement la destruction de son habitat naturel, la chasse et la surpêche de certaines de ses
+                  sources de nourriture. La protection de l’habitat naturel et la pêche responsable qui limite les
+                  capteurs accidentels sont quelques-unes façons de les protéger.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal fin requin blanc -->
+
+    <!-- Modal vaquita -->
+    <div class="modal fade" id="vaquita" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class='x' aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="contenue">
+              <div class="visuels">
+                <!--<img class="arriere_plan" src="\media\arriere_plan_perso.png">-->
+                <img class="img_gros" src="medias/tortue 1.png">
+              </div>
+              ­<div class="text">
+                <h2 class="titre3">Le Vaquita</h2>
+                <p class="info">Actuellement, le nombre de vaquitas restant sur la planète est d'environ 30 et leur
+                  nombre diminue d’année en année. La cause principale de leur extinction est l’utilisation de filets
+                  maillant pour pêcher les totoabas (c’est un poisson dont la vessie se vend à prix élevé en Chine).
+                  Afin d’aider ces animaux, la communauté internationale devrait interdire définitivement les filets
+                  maillant.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal fin vaquita -->
+
+    <!-- Modal requin baleine -->
+    <div class="modal fade" id="requinBaleine" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class='requin' aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="contenue">
+              <div class="visuels">
+                <!--<img class="arriere_plan" src="\media\arriere_plan_perso.png">-->
+                <img class="img_gros" src="medias/image 5.png">
+              </div>
+              ­<div class="text">
+                <h2 class="titre3">Le Requin Baleine</h2>
+                <p class="info">Le requin-baleine est considéré comme le plus grand poisson vivant sur terre. Il se
+                  nourrit de planctons, des petits poissons, des petits crustacés et des calmars. Comme la plupart des
+                  espèces marines, il est menacé principalement par la pollution des mers et des océans. D’abord, pour
+                  continuer à protéger cette espèce, il est important de ne pas jeter de substances susceptibles de
+                  polluer les masses d’eau et de recycler pour produire le moins de déchets possible.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal fin requin baleine -->
+
+    <!-- Modal baleine -->
+    <div class="modal fade" id="baleine" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class='x' aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="contenue">
+              <div class="visuels">
+                <!--<img class="arriere_plan" src="\media\arriere_plan_perso.png">-->
+                <img class="img_gros" src="medias/baleine 1.png">
               </div>
               ­<div class="text">
                 <h2 class="titre3">La Baleine</h2>
-              <p class="info">La baleine est le plus gros animal vivant sur Terre. Sa taille pouvant dépasser les 30
-                mètres est un poids de 170 tonnes. Les principales causes de leur extinction sont le changement
-                climatique. De plus, les pollutions chimiques qui provoquent des cancers et des problèmes de
-                reproduction, le bruit qui détruit leur système d’orientation et les condamne à mort. La meilleure
-                façon de protéger les baleines, c’est de prévenir les menaces qui pèsent sur elle.</p>
+                <p class="info">La baleine est le plus gros animal vivant sur Terre. Sa taille pouvant dépasser les 30
+                  mètres est un poids de 170 tonnes. Les principales causes de leur extinction sont le changement
+                  climatique. De plus, les pollutions chimiques qui provoquent des cancers et des problèmes de
+                  reproduction, le bruit qui détruit leur système d’orientation et les condamne à mort. La meilleure
+                  façon de protéger les baleines, c’est de prévenir les menaces qui pèsent sur elle.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  <!-- Modal fin baleine -->
+    <!-- Modal fin baleine -->
 
-  <!-- Modal Thon Rouge -->
-  <div class="modal fade" id="thonRouge" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span class='thon' aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="contenue">
-            <div class="visuels">
+    <!-- Modal Thon Rouge -->
+    <div class="modal fade" id="thonRouge" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class='thon' aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="contenue">
+              <div class="visuels">
                 <!--<img class="arriere_plan" src="\media\arriere_plan_perso.png">-->
                 <img class="img_gros" src="medias/tortue 1.png">
-            </div>
-            ­<div class="text">
-              <h2 class="titre3">Le Thon Rouge</h2>
-            <p class="info">Le thon rouge se nourrit des poissons, de calamars et de crustacés pélagiques. Il peut
-              atteindre 3 mètres de longueur et peser 600kg. Il est principalement menacé par la surpêche due en
-              grande partie par la consommation élevée mondialement de sushis et de sashimis. Une des solutions
-              propose par le WWF est de mettre en place un système d’étiquetages pour les principaux pays
-              consommateurs de thons rouges. Afin de contribuer à la protection des derniers reproducteurs en
-              créant un refuge qui permettra de garantir l’avenir de l’espèce.</p>
+              </div>
+              ­<div class="text">
+                <h2 class="titre3">Le Thon Rouge</h2>
+                <p class="info">Le thon rouge se nourrit des poissons, de calamars et de crustacés pélagiques. Il peut
+                  atteindre 3 mètres de longueur et peser 600kg. Il est principalement menacé par la surpêche due en
+                  grande partie par la consommation élevée mondialement de sushis et de sashimis. Une des solutions
+                  propose par le WWF est de mettre en place un système d’étiquetages pour les principaux pays
+                  consommateurs de thons rouges. Afin de contribuer à la protection des derniers reproducteurs en
+                  créant un refuge qui permettra de garantir l’avenir de l’espèce.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-<!-- Modal fin Thon Rouge -->
+    <!-- Modal fin Thon Rouge -->
 
-    </main>
-  
-    <footer>
-      <div class="compagnie">
-        <a>© 2023, Echomarine</a>
-      </div>
-    </footer>
+  </main>
 
-    <script src="sketch.js"></script>
+  <footer>
+    <div class="compagnie">
+      <a>© 2023, Echomarine</a>
+    </div>
+  </footer>
+
+  <script src="sketch.js"></script>
 </body>
+
 </html>
