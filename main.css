@@ -204,8 +204,18 @@ body {
   background-position: 0 0;
   background-size: 500px 5000%;
   background-repeat: no-repeat;
-  animation: idle-tortue 0.1s steps(47) infinite;
+  -webkit-animation: idle-tortue 0.1s steps(47) infinite;
+          animation: idle-tortue 0.1s steps(47) infinite;
   border-color: none;
+}
+
+@-webkit-keyframes idle-tortue {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -10000px;
+  }
 }
 
 @keyframes idle-tortue {
