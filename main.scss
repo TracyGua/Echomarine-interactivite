@@ -81,6 +81,30 @@ width: 200px;
     animation-timing-function: linear;
     animation-timing-function: steps(46);
   }
+  .baleineSprite{
+    width: 500px;
+    height: 500px;
+    background-image: url('sprites/baleine_sprite.png');
+    background-size: cover;
+    background-position: 0 0;
+    animation-name: anim;
+    animation-duration: 3.11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(46);
+  }
+  .thonRougeSprite{
+    width: 500px;
+    height: 500px;
+    background-image: url('sprites/thon_sprite.png');
+    background-size: cover;
+    background-position: 0 0;
+    animation-name: anim;
+    animation-duration: 3.11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(46);
+  }
   @keyframes anim {
     from {
       background-position: 0 0;
