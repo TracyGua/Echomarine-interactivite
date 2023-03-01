@@ -96,7 +96,7 @@ width: 200px;
   .thonRougeSprite{
     width: 500px;
     height: 500px;
-    background-image: url('sprites/thon_sprite.png');
+    background-image: url('sprites/thon_v3_sprite.png');
     background-size: cover;
     background-position: 0 0;
     animation-name: anim;
@@ -197,8 +197,11 @@ width: 200px;
     position:absolute;
     top:3.6%;
     left:4.6%;
-   }
-   .requin {
+  }
+  .contenue{
+    padding-bottom: 20px;
+  }
+  /* .requin {
     position:absolute;
     top:3.5%;
     left:4.6%;
@@ -219,7 +222,7 @@ width: 200px;
     position:absolute;
     top:52%;
     left:43%;
-   }
+   }*/
   .visuels{
     @include page_perso.visuel;
   }
