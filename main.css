@@ -51,16 +51,11 @@ footer {
   background-image: url("sprites/tortue_sprite.png");
   background-size: cover;
   background-position: 0 0;
-  -webkit-animation-name: anim;
-          animation-name: anim;
-  -webkit-animation-duration: 3.11s;
-          animation-duration: 3.11s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
 }
 
 .requinBlancSprite {
@@ -69,16 +64,11 @@ footer {
   background-image: url("sprites/requin_blanc_sprite.png");
   background-size: cover;
   background-position: 0 0;
-  -webkit-animation-name: anim;
-          animation-name: anim;
-  -webkit-animation-duration: 3.11s;
-          animation-duration: 3.11s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
 }
 
 .vaquitaSprite {
@@ -87,16 +77,11 @@ footer {
   background-image: url("sprites/vaquita_sprite.png");
   background-size: cover;
   background-position: 0 0;
-  -webkit-animation-name: anim;
-          animation-name: anim;
-  -webkit-animation-duration: 3.11s;
-          animation-duration: 3.11s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
 }
 
 .requinBaleineSprite {
@@ -105,16 +90,11 @@ footer {
   background-image: url("sprites/requin_baleine_sprite.png");
   background-size: cover;
   background-position: 0 0;
-  -webkit-animation-name: anim;
-          animation-name: anim;
-  -webkit-animation-duration: 3.11s;
-          animation-duration: 3.11s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
 }
 
 .baleineSprite {
@@ -123,16 +103,11 @@ footer {
   background-image: url("sprites/baleine_sprite.png");
   background-size: cover;
   background-position: 0 0;
-  -webkit-animation-name: anim;
-          animation-name: anim;
-  -webkit-animation-duration: 3.11s;
-          animation-duration: 3.11s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
 }
 
 .thonRougeSprite {
@@ -141,25 +116,11 @@ footer {
   background-image: url("sprites/thon_v3_sprite.png");
   background-size: cover;
   background-position: 0 0;
-  -webkit-animation-name: anim;
-          animation-name: anim;
-  -webkit-animation-duration: 3.11s;
-          animation-duration: 3.11s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
-}
-
-@-webkit-keyframes anim {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 0 -23000px;
-  }
+  animation-name: anim;
+  animation-duration: 3.11s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-timing-function: steps(46);
 }
 
 @keyframes anim {
@@ -232,7 +193,7 @@ body {
   width: 900px;
   height: 650px;
   margin-left: -200px;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .close {
