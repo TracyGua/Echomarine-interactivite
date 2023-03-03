@@ -20,9 +20,9 @@ const connectButton = document.querySelector('.connect');
 
 const son = new Audio('medias/Son/goutte_eau.wav');
 
-//function joueSon(){
- //   son.play();
-//}
+function joueSon(){
+   son.play();
+}
 connectButton.addEventListener('click', function() {
   onConnectClick();
  })
@@ -51,7 +51,7 @@ function onConnectClick() {
 
 btn1.addEventListener('click', function(){
 onSendClick();
-son.play();
+joueSon();
 })
 
 btn2.addEventListener('click', function(){
