@@ -275,20 +275,18 @@ body {
   left: 4.6%;
 }
 
-.buttonThon {
-  width: 300px;
-  position: absolute;
-  top: 44%;
-  left: 62%;
-}
-
-.buttonBaleine {
-  width: 175px;
-  position: absolute;
-  top: 52%;
-  left: 43%;
-}
-
+/* .buttonThon{
+  width:300px;
+  position:absolute;
+  top:44%;
+  left:62%;
+ }
+ .buttonBaleine{
+  width:175px;
+  position:absolute;
+  top:52%;
+  left:43%;
+ }*/
 .visuels {
   display: grid;
   grid-template-columns: auto;
