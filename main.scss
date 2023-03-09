@@ -217,7 +217,7 @@ width: 200px;
     width:300px;
    position:absolute;
     top:44%;
-    left:62%;
+    left:62%; 
    }*/
    /*.buttonBaleine{
     width:175px;
@@ -234,6 +234,7 @@ width: 200px;
   .info{
     @include page_perso.text;
     @include page_perso.info;
+    @include page_perso.infoT;
   }
   .text{
     @include page_perso.text;

@@ -279,7 +279,7 @@ body {
  width:300px;
 position:absolute;
  top:44%;
- left:62%;
+ left:62%; 
 }*/
 /*.buttonBaleine{
  width:175px;
@@ -314,6 +314,7 @@ position:absolute;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-right: 0px;
+  margin-top: 5px;
 }
 
 .text {

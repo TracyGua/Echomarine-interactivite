@@ -80,6 +80,9 @@
     margin-bottom: 40px;
     margin-right:0px;
   }
+  @mixin infoT{
+    margin-top: 5px;
+  }
  @mixin img6{
   width: 300px;
  }
