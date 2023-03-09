@@ -263,28 +263,32 @@ body {
   padding-bottom: 20px;
 }
 
-/* .requin {
-  position:absolute;
-  top:3.5%;
-  left:4.6%;
- }
- .thon {
-  position:absolute;
-  top:3.5%;
-  left:4.6%;
- }
- .buttonThon{
-  width:300px;
-  position:absolute;
-  top:44%;
-  left:62%;
- }
- .buttonBaleine{
-  width:175px;
-  position:absolute;
-  top:52%;
-  left:43%;
- }*/
+.requin {
+  position: absolute;
+  top: 3.5%;
+  left: 4.6%;
+}
+
+.thon {
+  position: absolute;
+  top: 3.5%;
+  left: 4.6%;
+}
+
+.buttonThon {
+  width: 300px;
+  position: absolute;
+  top: 44%;
+  left: 62%;
+}
+
+.buttonBaleine {
+  width: 175px;
+  position: absolute;
+  top: 52%;
+  left: 43%;
+}
+
 .visuels {
   display: grid;
   grid-template-columns: auto;
