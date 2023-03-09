@@ -234,6 +234,8 @@ width: 200px;
   .info{
     @include page_perso.text;
     @include page_perso.info;
+  }
+  .infoT{
     @include page_perso.infoT;
   }
   .text{
