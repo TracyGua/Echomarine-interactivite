@@ -23,7 +23,7 @@
   @mixin titre3{
     display:grid;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
   }
   @mixin text{
     color: #0D2C54;
@@ -79,6 +79,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right:0px;
+    font-size: 15px;
   }
   @mixin infoT{
     margin-top: 5px;

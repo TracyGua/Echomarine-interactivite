@@ -235,9 +235,9 @@ width: 200px;
     @include page_perso.text;
     @include page_perso.info;
   }
-  .infoT{
-    @include page_perso.infoT;
-  }
+  //.infoT{
+   // @include page_perso.infoT;
+  //}
   .text{
     @include page_perso.text;
   }
