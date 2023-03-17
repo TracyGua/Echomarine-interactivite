@@ -59,8 +59,8 @@ footer {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  -webkit-animation-timing-function: steps(47);
+          animation-timing-function: steps(47);
 }
 
 .requinBlancSprite {
@@ -77,8 +77,8 @@ footer {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  -webkit-animation-timing-function: steps(47);
+          animation-timing-function: steps(47);
 }
 
 .vaquitaSprite {
@@ -95,8 +95,8 @@ footer {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  -webkit-animation-timing-function: steps(47);
+          animation-timing-function: steps(47);
 }
 
 .requinBaleineSprite {
@@ -113,8 +113,8 @@ footer {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  -webkit-animation-timing-function: steps(47);
+          animation-timing-function: steps(47);
 }
 
 .baleineSprite {
@@ -131,14 +131,14 @@ footer {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  -webkit-animation-timing-function: steps(47);
+          animation-timing-function: steps(47);
 }
 
 .thonRougeSprite {
   width: 500px;
   height: 500px;
-  background-image: url("sprites/thon_v3_sprite.png");
+  background-image: url("sprites/thon_sprite.png");
   background-size: cover;
   background-position: 0 0;
   -webkit-animation-name: anim;
@@ -149,8 +149,8 @@ footer {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-timing-function: steps(46);
-          animation-timing-function: steps(46);
+  -webkit-animation-timing-function: steps(47);
+          animation-timing-function: steps(47);
 }
 
 @-webkit-keyframes anim {
@@ -158,7 +158,7 @@ footer {
     background-position: 0 0;
   }
   to {
-    background-position: 0 -23000px;
+    background-position: 0 -23500px;
   }
 }
 
@@ -167,7 +167,7 @@ footer {
     background-position: 0 0;
   }
   to {
-    background-position: 0 -23000px;
+    background-position: 0 -23500px;
   }
 }
 /*Animations
@@ -390,6 +390,6 @@ position:absolute;
   display: block;
   margin: auto;
   text-align: center;
-  heigth: 100%;
+  height: 100%;
   margin-top: 50px;
 }/*# sourceMappingURL=main.css.map */
